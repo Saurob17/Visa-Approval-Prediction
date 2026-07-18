@@ -156,6 +156,35 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+##################################################
+# Visa Approval Prediction
+##################################################
+
+# Virtual Environment
+visa_venv/
+
+# VS Code
+.vscode/
+
+# Environment Variables
+.env
+.env.*
+
+# Machine Learning Models
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.onnx
+*.tflite
+
+# Dataset (large files)
+data/raw/
+data/processed/
+
+# OS Files
+.DS_Store
+Thumbs.db
 
 # Spyder project settings
 .spyderproject
